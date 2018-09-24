@@ -1,0 +1,10 @@
+Jocul de fata contine elemente comune oricarui joc de tip Tower Defense: 
+	- wave-uri de inamici se spawneaza dintr-un punct si scopul lor e sa ajunga intr-un punct final
+	- scopul jucatorului este sa opreasca inamicii sa ajunga in acel punct final construind turnuri
+	- inamicii parcurg un labirint, iar jucatorul are posibilitatea sa construiasca turnuri astfel incat sa acopere o zona cat mai mare din acel labirint in care inamicii sunt atacati
+	- pentru a construi turnuri e nevoie de resurse (in jocul de fata resursa este Gold), resurse ce se castiga din eliminarea inamicilor
+	- turnurile au anumite atribute. In jocul de fata, se pot creea noi tipuri modificand urmatoarele atribute: raza de actiune, damage-ul, viteza de atac, raza de explozie (la impact proiectilul explodeaza lovind mai multi inamici), proiectilul poate sa incetineasca viteza inamicilor sau sa le poate cauza damage over time (DOT). Din cauza unui UI limitat, am creat doar 4 tipuri de turnuri pentru a demonstra capabilitatile sistemului.
+	- se poate schimba tipul de damage cauzat de turn. Astfel un proiectil poate face damage de tip Earth, Fire, Ice, Venom sau de niciunul
+	- inamicii au anumite proprietati: HP, viteza de mers, cate resurse dau daca sunt eliminati, rezistenta si slabiciune. Pentru ultimele doua proprietati intra in joc tipul de damage cauzat de turn. Daca tipul coincide cu rezistenta inamicului, acesta o sa primeasca mai putin damage decat face in mod normal turnul, iar daca tipul coincide cu slabiciunea inamicul o sa primeasca mai mult damage. M-am inspirat dintr-un joc mai vechi, numit Elemental TD, dar in acest  joc existau mai multe tipuri de elemente.
+	- jucatorul poate plasa turnuri cand are suficiente resurse folosind panoul din dreapta-jos. Zonele in care se pot construi sunt prestabilite si vor fi randate cu verde cand se intra in modul de construit. De asemenea, poate distruge un turn (daca nu mai are suficient spatiu sau nu-i convine anumit turn intr-o anumita zona) folosind butonul cu un cos de gunoi aflat tot in acel panou. Pentru a iesi din aceste tool-uri, se apasa right-click.
+	- jocul contine sunet
